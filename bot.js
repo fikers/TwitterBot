@@ -36,5 +36,8 @@ function followed(eventMsg) {
 	console.log("Follow Bot Working")
 	var name = eventMsg.source.name; 
 	var screenName = eventMsg.source.screen_name;
-	tweetIt("@" + screenName + " Thanks for following me!");
+	tweetIt("@" + screenName + " Thanks for following me! [Reply generated from a bot]");
 }
+
+
+
